@@ -1,0 +1,6 @@
+framework module Pods_Cuckoo_iOSTests {
+  umbrella header "Pods-Cuckoo-iOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
