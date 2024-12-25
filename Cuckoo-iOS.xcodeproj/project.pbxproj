@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B65322DB1551C3258AF2E7 /* Pods_Cuckoo_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FFBF6FD3E3D564AFE86A2B /* Pods_Cuckoo_iOSTests.framework */; };
-		0C5E13770BEBE697814398DB /* Pods_Cuckoo_iOS_Cuckoo_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674A543CD13F8A67342412EA /* Pods_Cuckoo_iOS_Cuckoo_iOSUITests.framework */; };
-		38F079E9520B1DB6E4718450 /* Pods_Cuckoo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD8F9C805103357CDEB8E5D /* Pods_Cuckoo_iOS.framework */; };
+		B56136C72D1C51C1007D4F9E /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = B56136C62D1C51C1007D4F9E /* FlexLayout */; };
+		B56136CA2D1C533F007D4F9E /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = B56136C92D1C533F007D4F9E /* PinLayout */; };
+		B56136E42D1C55D1007D4F9E /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = B56136E32D1C55D1007D4F9E /* PinLayout */; };
+		B56136FE2D1C5788007D4F9E /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = B56136FD2D1C5788007D4F9E /* File.txt */; };
+		B5BD07622D1C5189008D1EBC /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B5BD07612D1C5189008D1EBC /* Moya */; };
+		B5BD07642D1C5189008D1EBC /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B5BD07632D1C5189008D1EBC /* ReactiveMoya */; };
+		B5BD07662D1C5189008D1EBC /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B5BD07652D1C5189008D1EBC /* RxMoya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,18 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A24454E91520E05331C1782 /* Pods-Cuckoo-iOS-Cuckoo-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo-iOS-Cuckoo-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Cuckoo-iOS-Cuckoo-iOSUITests/Pods-Cuckoo-iOS-Cuckoo-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5F4300E554916DE8DFB2FDCD /* Pods-Cuckoo-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Cuckoo-iOSTests/Pods-Cuckoo-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		674A543CD13F8A67342412EA /* Pods_Cuckoo_iOS_Cuckoo_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuckoo_iOS_Cuckoo_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		678796E8EACB2FD64FF006A9 /* Pods-Cuckoo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo-iOS.release.xcconfig"; path = "Target Support Files/Pods-Cuckoo-iOS/Pods-Cuckoo-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		6BD8F9C805103357CDEB8E5D /* Pods_Cuckoo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuckoo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F43532C8E48659857D7A80F /* Pods-Cuckoo-iOS-Cuckoo-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo-iOS-Cuckoo-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cuckoo-iOS-Cuckoo-iOSUITests/Pods-Cuckoo-iOS-Cuckoo-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		96C40D613A7021AD9E11D1CB /* Pods-Cuckoo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Cuckoo-iOS/Pods-Cuckoo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B56136FD2D1C5788007D4F9E /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		B5BD04022D147BBD008D1EBC /* Cuckoo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cuckoo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BD04182D147BBF008D1EBC /* Cuckoo-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cuckoo-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BD04222D147BBF008D1EBC /* Cuckoo-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cuckoo-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5FFBF6FD3E3D564AFE86A2B /* Pods_Cuckoo_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuckoo_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E81DBCAB1D66980F7CA5DBFD /* Pods-Cuckoo-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Cuckoo-iOSTests/Pods-Cuckoo-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -80,7 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F079E9520B1DB6E4718450 /* Pods_Cuckoo_iOS.framework in Frameworks */,
+				B56136E42D1C55D1007D4F9E /* PinLayout in Frameworks */,
+				B5BD07662D1C5189008D1EBC /* RxMoya in Frameworks */,
+				B56136CA2D1C533F007D4F9E /* PinLayout in Frameworks */,
+				B5BD07622D1C5189008D1EBC /* Moya in Frameworks */,
+				B5BD07642D1C5189008D1EBC /* ReactiveMoya in Frameworks */,
+				B56136C72D1C51C1007D4F9E /* FlexLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B65322DB1551C3258AF2E7 /* Pods_Cuckoo_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,26 +96,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C5E13770BEBE697814398DB /* Pods_Cuckoo_iOS_Cuckoo_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		99ADC20B288E431BA5AF50D3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				96C40D613A7021AD9E11D1CB /* Pods-Cuckoo-iOS.debug.xcconfig */,
-				678796E8EACB2FD64FF006A9 /* Pods-Cuckoo-iOS.release.xcconfig */,
-				8F43532C8E48659857D7A80F /* Pods-Cuckoo-iOS-Cuckoo-iOSUITests.debug.xcconfig */,
-				2A24454E91520E05331C1782 /* Pods-Cuckoo-iOS-Cuckoo-iOSUITests.release.xcconfig */,
-				5F4300E554916DE8DFB2FDCD /* Pods-Cuckoo-iOSTests.debug.xcconfig */,
-				E81DBCAB1D66980F7CA5DBFD /* Pods-Cuckoo-iOSTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		B5BD03F92D147BBD008D1EBC = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +109,7 @@
 				B5BD041B2D147BBF008D1EBC /* Cuckoo-iOSTests */,
 				B5BD04252D147BBF008D1EBC /* Cuckoo-iOSUITests */,
 				B5BD04032D147BBD008D1EBC /* Products */,
-				99ADC20B288E431BA5AF50D3 /* Pods */,
-				E9E7626C09204DFC0921A4CB /* Frameworks */,
+				B56136FD2D1C5788007D4F9E /* File.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,16 +123,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9E7626C09204DFC0921A4CB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6BD8F9C805103357CDEB8E5D /* Pods_Cuckoo_iOS.framework */,
-				674A543CD13F8A67342412EA /* Pods_Cuckoo_iOS_Cuckoo_iOSUITests.framework */,
-				D5FFBF6FD3E3D564AFE86A2B /* Pods_Cuckoo_iOSTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,11 +130,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5BD042B2D147BBF008D1EBC /* Build configuration list for PBXNativeTarget "Cuckoo-iOS" */;
 			buildPhases = (
-				E757F44EDBBDA81236BD2B9E /* [CP] Check Pods Manifest.lock */,
 				B5BD03FE2D147BBD008D1EBC /* Sources */,
 				B5BD03FF2D147BBD008D1EBC /* Frameworks */,
 				B5BD04002D147BBD008D1EBC /* Resources */,
-				1DDF97FD2FB62134227E46BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,7 +150,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5BD04302D147BBF008D1EBC /* Build configuration list for PBXNativeTarget "Cuckoo-iOSTests" */;
 			buildPhases = (
-				9D6F4561242B5F63FBBF0002 /* [CP] Check Pods Manifest.lock */,
 				B5BD04142D147BBF008D1EBC /* Sources */,
 				B5BD04152D147BBF008D1EBC /* Frameworks */,
 				B5BD04162D147BBF008D1EBC /* Resources */,
@@ -199,11 +171,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5BD04332D147BBF008D1EBC /* Build configuration list for PBXNativeTarget "Cuckoo-iOSUITests" */;
 			buildPhases = (
-				ACF7879C96B149F161F1AED9 /* [CP] Check Pods Manifest.lock */,
 				B5BD041E2D147BBF008D1EBC /* Sources */,
 				B5BD041F2D147BBF008D1EBC /* Frameworks */,
 				B5BD04202D147BBF008D1EBC /* Resources */,
-				692C0E909C0C10770C302412 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +220,11 @@
 			);
 			mainGroup = B5BD03F92D147BBD008D1EBC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B5BD07602D1C5189008D1EBC /* XCRemoteSwiftPackageReference "Moya" */,
+				B56136C52D1C51C1007D4F9E /* XCRemoteSwiftPackageReference "FlexLayout" */,
+				B56136C82D1C533F007D4F9E /* XCRemoteSwiftPackageReference "PinLayout" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B5BD04032D147BBD008D1EBC /* Products */;
 			projectDirPath = "";
@@ -267,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56136FE2D1C5788007D4F9E /* File.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,109 +261,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1DDF97FD2FB62134227E46BC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cuckoo-iOS/Pods-Cuckoo-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cuckoo-iOS/Pods-Cuckoo-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cuckoo-iOS/Pods-Cuckoo-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		692C0E909C0C10770C302412 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cuckoo-iOS-Cuckoo-iOSUITests/Pods-Cuckoo-iOS-Cuckoo-iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cuckoo-iOS-Cuckoo-iOSUITests/Pods-Cuckoo-iOS-Cuckoo-iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cuckoo-iOS-Cuckoo-iOSUITests/Pods-Cuckoo-iOS-Cuckoo-iOSUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D6F4561242B5F63FBBF0002 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cuckoo-iOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ACF7879C96B149F161F1AED9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cuckoo-iOS-Cuckoo-iOSUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E757F44EDBBDA81236BD2B9E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cuckoo-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5BD03FE2D147BBD008D1EBC /* Sources */ = {
@@ -429,7 +302,6 @@
 /* Begin XCBuildConfiguration section */
 		B5BD042C2D147BBF008D1EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96C40D613A7021AD9E11D1CB /* Pods-Cuckoo-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -438,11 +310,13 @@
 				DEVELOPMENT_TEAM = AU24ZRJ649;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cuckoo-iOS/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +332,6 @@
 		};
 		B5BD042D2D147BBF008D1EBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 678796E8EACB2FD64FF006A9 /* Pods-Cuckoo-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,11 +340,13 @@
 				DEVELOPMENT_TEAM = AU24ZRJ649;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cuckoo-iOS/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -606,14 +481,13 @@
 		};
 		B5BD04312D147BBF008D1EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4300E554916DE8DFB2FDCD /* Pods-Cuckoo-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AU24ZRJ649;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minjae.Cuckoo-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -626,14 +500,13 @@
 		};
 		B5BD04322D147BBF008D1EBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E81DBCAB1D66980F7CA5DBFD /* Pods-Cuckoo-iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AU24ZRJ649;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minjae.Cuckoo-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -646,12 +519,12 @@
 		};
 		B5BD04342D147BBF008D1EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F43532C8E48659857D7A80F /* Pods-Cuckoo-iOS-Cuckoo-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AU24ZRJ649;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minjae.Cuckoo-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -664,12 +537,12 @@
 		};
 		B5BD04352D147BBF008D1EBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A24454E91520E05331C1782 /* Pods-Cuckoo-iOS-Cuckoo-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AU24ZRJ649;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minjae.Cuckoo-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -720,6 +593,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B56136C52D1C51C1007D4F9E /* XCRemoteSwiftPackageReference "FlexLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		B56136C82D1C533F007D4F9E /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.5;
+			};
+		};
+		B5BD07602D1C5189008D1EBC /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B56136C62D1C51C1007D4F9E /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B56136C52D1C51C1007D4F9E /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayout;
+		};
+		B56136C92D1C533F007D4F9E /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B56136C82D1C533F007D4F9E /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+		B56136E32D1C55D1007D4F9E /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B56136C82D1C533F007D4F9E /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+		B5BD07612D1C5189008D1EBC /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5BD07602D1C5189008D1EBC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		B5BD07632D1C5189008D1EBC /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5BD07602D1C5189008D1EBC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		B5BD07652D1C5189008D1EBC /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5BD07602D1C5189008D1EBC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5BD03FA2D147BBD008D1EBC /* Project object */;
 }
